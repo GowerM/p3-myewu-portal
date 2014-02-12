@@ -1,1 +1,68 @@
+/*==========================
+			Main
+===========================*/
 
+body {
+  background: #4E9AB3;
+  width: 100%;
+}
+
+
+.panel {
+	background: none;
+	border: none;
+}
+
+header {
+  background: white;
+  padding: 2em;
+  margin: -10px -10px 0 -10px;
+  width: 100%;
+  
+}
+
+footer {
+  background: #B38C64;
+  text-align: center;
+  color: #FFE0C1;
+  padding: 1em;
+  opacity: .95;
+}
+
+footer:after {
+  content : ".";
+  display : block;
+  height : 0;
+  clear : both;
+  visibility : hidden;
+}
+
+/*==========================
+			Font
+===========================*/
+
+h2,
+h3 {
+  font-family: 'Ruda', sans-serif;
+  font-size: 1.5em;
+}
+
+h3 {
+  text-indent: 1em;
+  font-family: 'Duru Sans', sans-serif;
+}
+
+a {
+  font-family: 'Duru Sans', sans-serif;
+  font-size: 1em;
+  color: #FFE0C1;
+  
+}
+
+ p {
+  text-indent: 1em;
+  font-family: 'Duru Sans', sans-serif;
+  font-size: .95em;
+  padding-left: 1em;
+  font-size: .75em;
+}
