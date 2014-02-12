@@ -16,7 +16,7 @@ body {
 header {
   background: white;
   padding: 2em;
-  margin: -10px -10px 0 -10px;
+  margin: -10px -30px 0 -10px;
   width: 100%;
   
 }
@@ -37,6 +37,15 @@ footer:after {
   visibility : hidden;
 }
 
+.logo {
+  width: 200px;
+  height: 150px;
+  background: red;
+  float: left;
+  margin-right: 30px;
+  margin-top: 0;
+}
+
 /*==========================
 			Font
 ===========================*/
@@ -47,7 +56,7 @@ h3 {
   font-size: 1.5em;
 }
 
-h3 {
+h5 {
   text-indent: 1em;
   font-family: 'Duru Sans', sans-serif;
 }
@@ -61,8 +70,45 @@ a {
 
  p {
   text-indent: 1em;
+  color: white;
   font-family: 'Duru Sans', sans-serif;
   font-size: .95em;
   padding-left: 1em;
   font-size: .75em;
+}
+
+/*==========================
+			Font
+===========================*/
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav li a {
+  color: #A10022;
+}
+
+nav li
+  {
+  display: inline;
+  color: #4E9AB3;
+}
+
+nav ul {
+  border-bottom: solid .25em black;
+  padding-top: 100px;
+}
+
+.nav {
+  margin-left: 2.5em;
+  color: #4E9AB3;
+}
+
+a:hover {
+  color: #A10022;
 }
