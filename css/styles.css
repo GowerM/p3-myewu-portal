@@ -25,6 +25,9 @@ footer {
   color: #FFE0C1;
   padding: 1em;
   opacity: .95;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   }
 
 footer:after {
@@ -111,6 +114,8 @@ a:hover {
   color: #A10022;
 }
 
+
+
 /*===========================
           Sections
 =============================*/
@@ -124,6 +129,11 @@ footer p {
   padding-top: 20px;
 }
 
+.spacing {
+  width: 100%;
+  height: 100px;
+}
+
 /*===========================
               img
 =============================*/
@@ -131,6 +141,19 @@ footer p {
     img {
       width: 100px;
     }
+
+/*===========================
+            Button
+=============================*/
+
+button {
+  background: none;
+}
+
+button:hover {
+  background: #A10022;
+}
+
 
 /*============================
         Sprites
