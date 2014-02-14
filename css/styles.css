@@ -5,21 +5,19 @@
 body {
   background: #4E9AB3;
   width: 100%;
-}
+  }
 
 
 .panel {
 	background: none;
 	border: none;
-}
+  }
 
 header {
   background: white;
   padding: 2em;
-  margin: -10px -30px 0 -10px;
-  width: 100%;
-  
-}
+  margin: -10px -10px 0 -10px;
+  }
 
 footer {
   background: #B38C64;
@@ -27,7 +25,7 @@ footer {
   color: #FFE0C1;
   padding: 1em;
   opacity: .95;
-}
+  }
 
 footer:after {
   content : ".";
@@ -35,7 +33,7 @@ footer:after {
   height : 0;
   clear : both;
   visibility : hidden;
-}
+  }
 
 .logo {
   width: 200px;
@@ -44,7 +42,7 @@ footer:after {
   float: left;
   margin-right: 30px;
   margin-top: 0;
-}
+  }
 
 /*==========================
 			Font
