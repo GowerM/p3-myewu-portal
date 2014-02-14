@@ -76,7 +76,7 @@ a {
 }
 
 /*==========================
-			Font
+			Links and Lists
 ===========================*/
 
 ul {
@@ -109,4 +109,33 @@ nav ul {
 
 a:hover {
   color: #A10022;
+}
+
+/*===========================
+          Sections
+=============================*/
+
+.columns {
+  margin-top: 30px;
+}
+
+
+
+
+
+/*============================
+        Sprites
+==============================*/
+
+.delete a:link {
+  background: url("../img/sprite-map.png") no-repeat 0 0;
+}
+
+
+.move a:link {
+  background: url("../img/sprite-map.png") no-repeat 0 0;
+}
+
+.read a:link {
+  background: url("../img/sprite-map.png") no-repeat 0 0;
 }
