@@ -23,7 +23,7 @@ footer {
   background: #B38C64;
   text-align: center;
   color: #FFE0C1;
-  padding: 1em;
+  
   opacity: .95;
   position: fixed;
   bottom: 0;
@@ -120,6 +120,15 @@ a:hover {
           Sections
 =============================*/
 
+.rule {
+  border-bottom: 2px solid black;
+  
+}
+
+.rule:hover {
+  border-bottom: 2px solid #A10022;
+}
+
 .columns {
   margin-top: 30px;
 }
@@ -131,7 +140,7 @@ footer p {
 
 .spacing {
   width: 100%;
-  height: 100px;
+  height: 200px;
 }
 
 /*===========================
@@ -148,6 +157,7 @@ footer p {
 
 button {
   background: none;
+  font-size: 1.5em;
 }
 
 button:hover {
@@ -156,18 +166,30 @@ button:hover {
 
 
 /*============================
-        Sprites
+        Preferences
 ==============================*/
 
-.delete a:link {
-  background: url("../img/sprite-map.png") no-repeat 0 0;
+input.checkbox {
+	margin-left: 5px;
+	
+}
+
+form {
+	margin-top: 20px;
 }
 
 
-.move a:link {
-  background: url("../img/sprite-map.png") no-repeat 0 0;
+
+.active {
+	
+	border: .5em solid #A10022 ;
 }
 
-.read a:link {
-  background: url("../img/sprite-map.png") no-repeat 0 0;
+input.color {
+	display: inline;
+	margin-top: 10px;
+}
+
+label {
+	margin-top: 5px;	
 }
